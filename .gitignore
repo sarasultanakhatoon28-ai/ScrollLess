@@ -1,0 +1,30 @@
+# ScrollLess
+
+ScrollLess is a mobile-first short-form video app designed as a digital-wellbeing mirror, not an engagement trap. It blends the feel of a Reels/Shorts feed with a lightweight intervention layer: onboarding, calibration, boredom injection, reality-check cards, and a live Mind Meter that makes the cost of scrolling visible.
+
+## Install
+
+```bash
+npm install
+```
+
+## Run
+
+```bash
+npm run dev
+```
+
+## How to test all 4 phases fast
+
+Use the hidden dev panel by pressing Shift + D or tapping the gear button in the top bar, then set the time multiplier to 60. This makes 1 real second equal 60 app seconds, so the complete calibration feed and all phase transitions can be tested in under 2 minutes.
+
+Quick flow:
+1. Complete the onboarding survey.
+2. Let the app run through calibration.
+3. Open the debug panel and jump directly to Phase 2 or Phase 3.
+4. Observe the boredom-injection ratio and the reality-check overlay.
+5. Watch the Mind Meter decay from inspired to creatively depleted.
+
+## Design Notes
+
+This app is a mirror, not an engagement trap. It is intentionally designed to surface the actual cost of algorithmic attention with clarity: no dark patterns, no manipulative retention loops, and no guilt-heavy punishment. The goal is to make the downside of endless scrolling visible and give users a better way to notice when the feed is taking more than it gives.
